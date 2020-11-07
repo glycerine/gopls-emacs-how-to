@@ -11,7 +11,7 @@ go get golang.org/x/tools/gopls
 2. upgrade to emacs27.1
     so the package-install stuff works
     
-on ubunut 18 this involves:
+on ubuntu 18 this involves:
 ~~~    
 sudo add-apt-repository ppa:kelleyk/emacs
 apt update
