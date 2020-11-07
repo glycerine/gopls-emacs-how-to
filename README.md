@@ -1,5 +1,8 @@
 # how to get gopls in emacs with golang go-mode working
 
+Motivation: with the advent of golang modules, our workhorse godef no longer works or takes 10s of seconds to respond.
+Something package-aware is needed. Enter gopls.
+
 Overview: The gopls documentation is misleading. Its says use the emacs lsp-mode. No. Wrong.
 
 lsp-mode is garbage. Instead use eglot.
