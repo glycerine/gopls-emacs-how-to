@@ -1,5 +1,9 @@
 # how to get gopls in emacs with golang go-mode working
 
+Overview: The gopls documentation is misleading. Its says use the emacs lsp-mode. No. Wrong.
+
+lsp-mode is garbage. Instead use eglot.
+
 ## getting jump-to-definition working with gopls and emacs in go-mode
 
 1. install gopls
