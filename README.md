@@ -56,3 +56,6 @@ you should see an eglot:project-name in your status line.
 use M-. to jump to definition
     M-, to return
 ~~~
+
+
+-- reference for eglot: https://github.com/joaotavora/eglot
