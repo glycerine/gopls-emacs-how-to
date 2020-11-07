@@ -25,6 +25,9 @@ apt update
 apt install emacs27
 ~~~
 
+You may have to edit the symlink /etc/alternatives/emacs too.
+
+
 If you get RSA/DSA key failure like this
 ~~~
 package--check-signature: Failed to verify signature 
