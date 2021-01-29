@@ -62,3 +62,10 @@ use M-. to jump to definition
 
 
 -- reference for eglot: https://github.com/joaotavora/eglot
+
+5. (optional but nice) turn off annoying hover-hints by adding to your .emacs:
+
+~~~
+;; turn off the annoying hover popups.                                                                                             
+(custom-set-variables '(eglot-ignored-server-capabilites '(list :documentHighlightProvider :hoverProvider :signatureHelpProvider)))
+~~~
